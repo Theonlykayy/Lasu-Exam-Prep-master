@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family:   'Poppins', sans-serif;
+  font-family: 'Exo', sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: #334FDB;
+  background-color: hsl(var(--hue), var(--sat), 75%);
 }
 
 #container {
@@ -30,19 +30,19 @@ body {
   width: 250px;
   text-align: center;
   padding: 20px 0;
-  background: white;
+  background: #e7f1fa;
   color: #000;
   font-size: 23px;
   font-weight: 700;
-  border-radius: 30px 30px;
+  border-radius: 30px 10px;
   border: 1px solid #b0c4d8;
   cursor: pointer;
 /*    display: none;*/
 }
 
 #start:hover {
-  background: #E7F1FA;
-  color: black;
+  background: #ff5235;
+  color: #e7f1fa;
 }
 
 /*guide Section*/
@@ -52,14 +52,14 @@ body {
   width: 580px;
   padding: 20px;
   background: #e7f1fa;
-  border-radius: 30px 30px;
+  border-radius: 30px 10px;
   border: 1px solid #b0c4d8;
   display: none;
 }
 
 #guide h2 {
-  font-size: 50px;
-  color: #334FDB;
+  font-size: 60px;
+  color: #ff5235;
 }
 
 #guide h4 {
@@ -67,7 +67,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #guide #button {
@@ -84,7 +84,7 @@ body {
   border: none;
   outline: none;
   color: #e7f1fa;
-  background: #334FDB;
+  background: #ff5235;
   border: 1px solid #b0c4d8;
   border-radius: 20px 5px;
   font-size: 18px;
@@ -96,7 +96,7 @@ body {
 }
 
 #guide #button button:hover {
-  background: #5aa3e3;
+  background: #e91e3a;
 }
 
 #quiz {
@@ -108,30 +108,30 @@ body {
 #quiz #quiz_header {
   height: 60px;
   width: 100%;
-  background: #e7f1fa;
+  background: #fafafc;
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
   flex-direction: row;
-  border-radius: 30px 30px;
+  border-radius: 30px 0;
 }
 
 #quiz #quiz_header h5 {
   font-size: 28px;
   margin: 0 20px;
-  color: #5aa3e3;
+  color: #ff5235;
 }
 
 #quiz #quiz_header #timer {
   height: 50px;
   width: 200px;
-  background: #5aa3e3;
+  background: #ff5235;
   color: #e7f1fa;
   border: 1px solid #b0c4d8;
   font-size: 18px;
-  border-radius: 30px 30px;
+  border-radius: 20px 5px;
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -152,7 +152,7 @@ body {
   background: #fff;
   color: #f69d9e;
   border: 1px solid #b0c4d8;
-  border-radius: 30px 30px;
+  border-radius: 15px 7px;
   margin: 2px 0 0 27px;
 }
 
@@ -174,32 +174,33 @@ body {
 
 /*Quiz Options*/
 #quiz #optionList {
-  height: 300px;
+  height: 400px;
   width: 100%;
   position: absolute;
-  top: 150px;
+  top: 190px;
 }
 
 #quiz #optionList h4 {
   height: 50px;
   width: 535px;
-  background: white;
+  background: #ff5235;
   line-height: 50px;
   margin: 5px 0;
-  border-radius: 30px;
+  border-radius: 7px;
   padding: 0 20px;
   font-size: 20px;
-  color: black;
+  color: #fff;
   overflow: hidden;
   border: 1px solid #b0c4d8;
   cursor: pointer;
 }
 
 #quiz #optionList h4:hover {
-  background: #5aa3e3;
+  background: #e91e3a;
 }
+
 #quiz #optionList .active {
-  background: #5aa3e3;
+  background: #e91e3a;
 }
 
 #quiz #optionList .disabled {
@@ -211,14 +212,14 @@ body {
 #quiz #answersSection {
   height: 60px;
   width: 100%;
-  background: #e7f1fa;
+  background: #fafafc;
   position: absolute;
   bottom: 0;
   left: 0;
   display: flex;
   align-items: center;
   flex-direction: row;
-  border-radius: 30px 30px;
+  border-radius: 30px 0;
 }
 
 #quiz #answersSection h3 {
@@ -231,10 +232,10 @@ body {
   width: 100px;
   display: grid;
   place-items: center;
-  background: white;
+  background: #ff5235;
   position: absolute;
   right: 0;
-  color: black;
+  color: #fff;
   border: 1px solid #b0c4d8;
   font-size: 18px;
   border-radius: 20px 5px;
@@ -243,7 +244,7 @@ body {
 }
 
 #quiz #answersSection h3:hover {
-  background: #5aa3e3;
+  background: #e91e3a;
 }
 
 #quiz #answersSection h3:first-child:hover {
@@ -265,7 +266,7 @@ body {
 
 #container #result i {
   font-size: 180px;
-  color: #5aa3e3;
+  color: #ff5235;
   position: absolute;
   top: 30px;
   left: 120px;
@@ -290,8 +291,8 @@ body {
   width: 260px;
   border: none;
   outline: none;
-  background: #E7F1FA;
-  color: black;
+  background: #ff5235;
+  color: #e7f1fa;
   position: absolute;
   left: 105px;
   top: 335px;
@@ -306,5 +307,5 @@ body {
 }
 
 #container #result button:hover {
-  background: #5aa3e3;
+  background: #e91e3a;
 }
