@@ -101,7 +101,7 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue), 4%, 24%);
 }
 
-/*========== Button Dark/Light ==========*/
+/*========== Button Dark/Light 
 .change-theme {
   position: absolute;
   right: 1.5rem;
@@ -112,8 +112,9 @@ body.dark-theme {
 }
 
 .dark-theme .footer {
-  background-color: var(--container-color);
+  background-color: #334FDB;
 }
+==========*/
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
@@ -644,7 +645,7 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color-lighten);
+  background-color: #334FDB;
   padding-bottom: 2rem;
 }
 
@@ -655,16 +656,18 @@ body.dark-theme {
 .footer__logo, .footer__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-75);
+color: #252528;
 }
 
 .footer__logo {
   display: inline-block;
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: #252528;
 }
 
 .footer__description, .footer__link {
   font-size: var(--small-font-size);
+  color: black;
 }
 
 .footer__links {
@@ -673,7 +676,7 @@ body.dark-theme {
 }
 
 .footer__link {
-  color: var(--title-color);
+  color: rgb(0, 0, 0);
 }
 
 .footer__social {
@@ -687,10 +690,10 @@ body.dark-theme {
 }
 
 .footer__copy {
-  margin-top: 6rem;
+  margin-top: 2rem;
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color);
+  color: black  ;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -885,7 +888,7 @@ body.dark-theme {
     grid-template-columns: 3fr 1.5fr 1.25fr;
   }
   .footer__container {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .footer__social {
     align-items: flex-start;

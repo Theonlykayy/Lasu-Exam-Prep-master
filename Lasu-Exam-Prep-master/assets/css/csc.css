@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 :root{
-    --light-purple-color: #8854C0;
+    --light-purple-color: #334FDB;
     --light-color: #fff;
     --dark-color: #000;
     --grey-color: #f2f2f2;
@@ -24,7 +24,7 @@ body{
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: var(--dark-color);
-    background: hsl(var(--hue), var(--sat), 75%);
+    background: #334FDB;
 
 }
 .wrapper{
@@ -82,7 +82,7 @@ body{
     border: 3px solid var(--light-purple-color);
     background-color: var(--light-purple-color);
     color: var(--light-color);
-    box-shadow: 0 4px 0 0 #6c4298;
+    box-shadow: 0 4px 0 0 black;
     transition: var(--transition);
 }
 .quiz-options li:hover{
