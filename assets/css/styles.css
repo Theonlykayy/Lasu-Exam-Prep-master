@@ -555,6 +555,10 @@ body.dark-theme {
   padding: 15px;
   border-radius: 0.5rem;
 }
+.post-box img{
+  object-fit: cover;
+  object-position: center;
+}
 
 .post-img{
   width: 100%;

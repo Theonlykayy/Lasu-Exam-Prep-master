@@ -66,14 +66,14 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: hsl(var(--hue), 8%, 13%);
-  color: var(--text-color);
+  background-color: white;
+  color: #252528;
   transition: .5s;
 }
 
 h1, h2, h3 {
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: #252528;
   line-height: 1.5;
 }
 
@@ -107,7 +107,7 @@ img {
   position: absolute;
   right: 1.5rem;
   top: 2.2rem;
-  color: var(--title-color);
+  color: #252528;
   font-size: 1.8rem;
   cursor: pointer;
 }
@@ -135,6 +135,7 @@ img {
     left: 0;
     z-index: var(--z-fixed);
     transition: .5s;
+    color: #252528;
   }
   
   /*=============== NAV ===============*/
@@ -172,7 +173,7 @@ img {
   }
   
   .nav__link, .nav__logo, .nav__toggle {
-    color: var(--title-color);
+    color: #252528;
     font-weight: var(--font-semi-bold);
   }
   
